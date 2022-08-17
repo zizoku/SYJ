@@ -160,24 +160,36 @@ input[name="r"]{
 	font-size: 12px;
 	border-top: solid;
 }
-
+/* CONTENEDOR */
+.contenedor{
+	max-width: 1000px;
+	box-sizing: border-box;
+	display: ;
+}
 /*PANEL*/
 .panel{
-	padding: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
 	box-sizing: border-box;
-	margin-top: -450px;
-	margin-bottom: 0px;
-	width: 100%;
-	height: 650px;
-	max-width: 150px;
+	width: 150px;
+	height: 400px;
 	background: gray;
 	border-right: 20px solid black;
 	border-radius: 10px;
 	font-size: 20px;
 	font-weight: bolder;
 	font-family: arial;
+	
 }
 .tipo{
 	text-align: ;
 	margin-top: 15px;
+}
+
+/*PRODUCTOS*/
+.productos{
+	width: 70%;
+	max-width: 650px;
+
+
 }
