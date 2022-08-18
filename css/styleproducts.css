@@ -56,9 +56,11 @@ body{
 }
 /*PRODUCTOS*/
 .contenedor{
-	width: auto;
+	width: 95%;
+	height: 	auto	;
 	box-sizing: border-box;
-	display: inline;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
 }
 .panel{
 	padding-top: 10px;
@@ -73,19 +75,33 @@ body{
 	font-weight: bolder;
 	font-family: arial;
 }
-.tipo{
-	margin-top: 15px;
-}
 .productos{
-	width: 650px;
-	transform: translate(400px,-400px);
+	width: 100%;
+	max-width: 1000px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
 }
-.p1{
-	display: inline;
+.card{
+	background:black;
+	box-sizing: border-box;
+	border-radius: 	20px;
+	padding: 1em;
+	text-align: center	;
 }
-.p1 img{
-	width: 180px;
+.ctitle{
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-family: 'Arial';
+}
+.cimage img{
 	border-radius: 360px;
+	width: 150px;
+	height: 150px;
 }
 
 /*BODY*/
@@ -94,7 +110,7 @@ body{
 	padding-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-top: -200px;
+	margin-top: 10px;
 	margin-bottom: 100px;
 	border-top: solid;
 	background-color: lightgray;
