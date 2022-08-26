@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/styleproducts.css">
 </head>
 <body>
-
 <!--HEADER-->
 <div class="HEADER">
 <ul class="nav">
@@ -20,65 +19,65 @@
 
 <!--PANELLATERAL-->
 <div class="contenedor">
-<div class="panel">
-	<div class="tipo">PLACAS</div>
-	<div class="tipo">MALLA</div>
-	<div class="tipo">CUERO</div>
-	<div class="tipo">TELA</div>
-	<div class="tipo">TODO</div>
-</div>
+	<div class="panel">
+		<a href="#" class="categoryitem" category="all">TODO</a>
+		<a href="#" class="categoryitem" category="placas">PLACAS</a>
+		<a href="#" class="categoryitem" category="cuero">CUERO</a>
+		<a href="#" class="categoryitem" category="mallas">MALLAS</a>
+		<a href="#" class="categoryitem" category="tela">TELA</a>
+	</div>
 
 <!--PRODUCTOS-->
-<div class="productos">
-	<div class="card">
-		<div class="ctitle">Druid</div>
-		<div class="cimage"><img src="products/druid.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Demon Hunter</div>
-		<div class="cimage"><img src="products/dh.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Rogue</div>
-		<div class="cimage"><img src="products/rogue.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Monk</div>
-		<div class="cimage"><img src="products/monk.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Paladin</div>
-		<div class="cimage"><img src="products/pala.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Death Knight</div>
-		<div class="cimage"><img src="products/dk.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Warrior</div>
-		<div class="cimage"><img src="products/war.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Mage</div>
-		<div class="cimage"><img src="products/mage.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Warlock</div>
-		<div class="cimage"><img src="products/lock.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Priest</div>
-		<div class="cimage"><img src="products/priest.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Hunter</div>
-		<div class="cimage"><img src="products/hunter.jpg"></div>
-	</div>
-	<div class="card">
-		<div class="ctitle">	Shaman</div>
-		<div class="cimage"><img src="products/shaman.jpg"></div>
-	</div>
-</div>
+	<section class="productos">
+		<div class="card" category="cuero">
+			<a href="#">Druid</a>
+			<img src="products/druid.jpg">
+		</div>
+		<div class="card" category="cuero">
+			<a href="#">Rogue</a>
+			<img src="products/rogue.jpg">
+		</div>
+		<div class="card" category="cuero">
+			<a href="#">Demon Hunter</a>
+			<img src="products/dh.jpg">
+		</div>
+		<div class="card" category="cuero">
+			<a href="#">Monk</a>
+			<img src="products/monk.jpg">
+		</div>
+		<div class="card" category="placas">
+			<a href="#">Paladin</a>
+			<img src="products/pala.jpg">
+		</div>
+		<div class="card" category="placas">
+			<a href="#">Death Knight</a>
+			<img src="products/dk.jpg">
+		</div>
+		<div class="card" category="placas">
+			<a href="#">Warrior</a>
+			<img src="products/war.jpg">
+		</div>
+		<div class="card" category="tela">
+			<a href="#">Mage</a>
+			<img src="products/mage.jpg">
+		</div>
+		<div class="card" category="tela">
+			<a href="#">Warlock</a>
+			<img src="products/lock.jpg">
+		</div>
+		<div class="card" category="tela">
+			<a href="#">Priest</a>
+			<img src="products/priest.jpg">
+		</div>
+		<div class="card" category="mallas">
+			<a href="#">Hunter</a>
+			<img src="products/hunter.jpg">
+		</div>
+		<div class="card" category="mallas">
+			<a href="#">Shaman</a>
+			<img src="products/shaman.jpg">
+		</div>
+	</section>
 </div>
 <!--CONTACTANOS-->
 <div id="CONTACTANOS" class="ENCUADRES">
@@ -95,6 +94,7 @@
 
 <!--FOOTER-->
 <p class="footer">All content copyright &copy; PRUEBA 2022</p>
-
+<script src=js/jquery-3.6.0.min.js></script>
+<script type="text/javascript"src=js/script.js></script>
 </body>
 </html>
