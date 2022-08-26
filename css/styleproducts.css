@@ -69,18 +69,21 @@ body{
 	box-sizing: border-box;
 	width: 200px;
 	height: 400px;
-	background: gray;
-	border-right: 20px solid black;
 	border-radius: 10px;
 	font-size: 20px;
 	font-weight: bolder;
-	
+	border-color: gray;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.active{
+	background: skyblue;
 }
 .panel .categoryitem{
 	width: 90%;
 	display: block;
 	margin-bottom: 5px;
-	background: white;
 	border: solid black;
 	text-decoration: none;
 	color: black;
@@ -90,6 +93,8 @@ body{
 .categoryitem{
 	text-align: center;
 }
+
+
 
 .productos{
 	width: 100%;
@@ -124,9 +129,6 @@ body{
 .card img:hover{
 	transform: scale(1.5);
 	z-index: 1;
-}
-.active{
-	background: skyblue;
 }
 
 /*BODY*/
